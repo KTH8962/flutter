@@ -58,12 +58,12 @@ class _RadioImageState extends State<RadioImage> {
               onChanged: (value){
                 setState(() {
                   selectValue = value;
+                  print('${selectValue}, ${widget.value}');
                 });
               }
           ),
           title: Text(widget.tit),
           onTap: (){
-            print('${selectValue}, ${widget.value}');
             setState(() {
               selectValue = widget.value;
             });
