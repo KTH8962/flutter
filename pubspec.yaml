@@ -32,6 +32,12 @@ dependencies:
     sdk: flutter
   http:
   flutter_rating_bar:
+  qr_flutter: ^4.1.0
+  country_calling_code_picker:
+  fluttertoast:
+  calendar_date_picker2:
+  flutter_localization: ^0.2.2
+  shared_preferences: ^2.3.3
 
 
   # The following adds the Cupertino Icons font to your application.

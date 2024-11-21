@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../day3/Dialog.dart';
-import '../day3/Dialog2.dart';
+import 'package:flutter1/day4/CountryPicker.dart';
+import 'package:flutter1/day4/Toast.dart';
 import '../day3/SecondPage.dart';
 
 void main() {
@@ -34,29 +34,29 @@ class MainPage extends StatelessWidget {
                   ),
                 );
               },
-              child: Text("첫번째")
+              child: Text("qr생성")
           ),
           TextButton(
               onPressed: (){
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                      builder: (context) => Dialog1()
+                      builder: (context) => Countrypicker()
                   ),
                 );
               },
-              child: Text("두번째")
+              child: Text("나라별 전화번호")
           ),
           TextButton(
               onPressed: (){
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                      builder: (context) => Dialog2()
+                      builder: (context) => ToastTest()
                   ),
                 );
               },
-              child: Text("세번째")
+              child: Text("토스트")
           ),
         ],
       )
